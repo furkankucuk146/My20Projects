@@ -1,0 +1,14 @@
+﻿Create Table Categories(
+CategoryId serial primary key,
+CategoryName Varchar(100) not null
+)
+
+Create Table ToDoLists(
+ToDoListId serial primary key,
+Title varchar(200) not null,
+Description varchar(1000),
+Status bit,
+Priority varchar(50),
+CategoryId int,
+Foreign Key (CategoryId) references Categories(CategoryId) On Delete Cascade
+)
