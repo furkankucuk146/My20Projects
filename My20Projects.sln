@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project11_TriggerOrderStock
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project12_JwtToken", "Project12_JwtToken\Project12_JwtToken.csproj", "{0566EFD4-15AB-47E8-82F2-86D4165FFB57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project13_WeatherApp", "Project13_WeatherApp\Project13_WeatherApp.csproj", "{36D5EAE2-85AD-4E56-BE0A-285A0325046A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{0566EFD4-15AB-47E8-82F2-86D4165FFB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0566EFD4-15AB-47E8-82F2-86D4165FFB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0566EFD4-15AB-47E8-82F2-86D4165FFB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D5EAE2-85AD-4E56-BE0A-285A0325046A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D5EAE2-85AD-4E56-BE0A-285A0325046A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D5EAE2-85AD-4E56-BE0A-285A0325046A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D5EAE2-85AD-4E56-BE0A-285A0325046A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
